@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "da9f015cacbda93d31b11ba1c41edc34"
+build_time: [1582010922, 151921000]
+inputs:
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/PrimaryController/CutsomWebViewVC.swift": [1576242402, 857830034]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/SecondryController/AttributionVC.swift": [1577190870, 989969895]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/HelperGroup/Credentials.swift": [1582009076, 112177418]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/SecondryController/HelpVC.swift": [1575973803, 186392923]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/PrimaryController/HomeVC.swift": [1575974521, 90252904]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/HelperGroup/Utils.swift": [1569829376, 583379953]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/AppDelegate.swift": [1581402492, 182869903]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/SecondryController/CustomSplashVC.swift": [1569415363, 64189136]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/SecondryController/PrivacyPolicyVC.swift": [1575973695, 421241394]
+  "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/HelperGroup/Extension.swift": [1565935747, 332375664]

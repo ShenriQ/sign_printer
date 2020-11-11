@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <nine-patch
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:src="@drawable/media_controller_seekbar_background"
+            android:dither="true"
+            />
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip android:gravity="left">
+            <nine-patch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:src="@drawable/media_controller_seekbar_secondary_progress"
+                android:dither="true"
+                />
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:gravity="left">
+            <nine-patch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:src="@drawable/media_controller_seekbar_progress"
+                android:dither="true"
+                />
+        </clip>
+    </item>
+
+</layer-list>

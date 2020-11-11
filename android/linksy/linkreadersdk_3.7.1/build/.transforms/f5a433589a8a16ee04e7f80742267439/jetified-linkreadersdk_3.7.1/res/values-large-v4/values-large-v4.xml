@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="body_data_collection_width">320dp</dimen>
+    <dimen name="body_margin">100dp</dimen>
+    <dimen name="body_padding_bottom">25dp</dimen>
+    <dimen name="body_text_size">20sp</dimen>
+    <dimen name="button_height">66dp</dimen>
+    <dimen name="button_margin_bottom">66dp</dimen>
+    <dimen name="button_padding">14dp</dimen>
+    <dimen name="button_text_size">22sp</dimen>
+    <dimen name="button_width">360dp</dimen>
+    <dimen name="checkbox_margin_bottom">8dp</dimen>
+    <dimen name="checkbox_margin_left">14dp</dimen>
+    <dimen name="checkbox_margin_top">25dp</dimen>
+    <dimen name="checkbox_padding_bottom">8dp</dimen>
+    <dimen name="checkbox_padding_top">30dp</dimen>
+    <dimen name="data_collection_land_screen">200dp</dimen>
+    <dimen name="header_font_size">36sp</dimen>
+    <dimen name="header_padding">90dp</dimen>
+    <dimen name="learn_more_padding_bottom">25dp</dimen>
+    <dimen name="learn_more_padding_top">30dp</dimen>
+    <dimen name="linked_content_margin_right">140dp</dimen>
+    <dimen name="padding_bottom">15dp</dimen>
+    <dimen name="padding_data_collection_and_welcome">90dp</dimen>
+    <dimen name="what_can_i_scan_image_padding">16dp</dimen>
+    <dimen name="what_can_scan_topic">20sp</dimen>
+    <dimen name="what_can_scan_topic_description">18sp</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.hp.linkreadersdk.widget.FlashButton
+        android:layout_gravity="top|right"
+        android:padding="25sp"
+        android:id="@+id/flash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hp.linkreadersdk.widget.Crosshair
+        android:id="@+id/crosshair"
+        android:layout_width="@dimen/crosshair_size"
+        android:layout_height="@dimen/crosshair_size"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:padding="25sp"
+        android:src="@drawable/app_icon_white"
+        android:alpha="0.7"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
+

@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Utils"
+provides-nominal:
+- "5Linxy5UtilsC"
+provides-member:
+- ["5Linxy5UtilsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "NSNull"
+- "NSObject"
+- "String"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIApplication"
+- !private "UIDevice"
+- "UIInterfaceOrientation"
+- "UIInterfaceOrientationMask"
+- !private "UINavigationController"
+- "UIViewController"
+- "Utils"
+- "Void"
+depends-member:
+- !private ["5Linxy11AppDelegateC", "orientationLock"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIDevice"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "appName"]
+- !private ["s7CVarArgP", "attemptRotationToDeviceOrientation"]
+- !private ["s7CVarArgP", "current"]
+- ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lockOrientation"]
+- !private ["s7CVarArgP", "orientationLock"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "setValue"]
+- ["s7CVarArgP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "appName"]
+- !private ["s28CustomDebugStringConvertibleP", "attemptRotationToDeviceOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lockOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "orientationLock"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "appName"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "attemptRotationToDeviceOrientation"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lockOrientation"]
+- !private ["s23CustomStringConvertibleP", "orientationLock"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So19EasyReadingDelegateP", "orientationLock"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- ["SQ", "UIApplication"]
+- !private ["SQ", "UIDevice"]
+- !private ["SQ", "UINavigationController"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "appName"]
+- !private ["SQ", "attemptRotationToDeviceOrientation"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "current"]
+- ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lockOrientation"]
+- !private ["SQ", "orientationLock"]
+- !private ["SQ", "present"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "setValue"]
+- ["SQ", "shared"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- ["SH", "UIApplication"]
+- !private ["SH", "UIDevice"]
+- !private ["SH", "UINavigationController"]
+- ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "appName"]
+- !private ["SH", "attemptRotationToDeviceOrientation"]
+- !private ["SH", "cancel"]
+- !private ["SH", "current"]
+- ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "lockOrientation"]
+- !private ["SH", "orientationLock"]
+- !private ["SH", "present"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "setValue"]
+- ["SH", "shared"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "attemptRotationToDeviceOrientation"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "attemptRotationToDeviceOrientation"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- ["So8NSObjectC", "AlertComplitionhandler"]
+- ["So8NSObjectC", "AppDelegate"]
+- !private ["So8NSObjectC", "NSNull"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIDevice"]
+- ["So8NSObjectC", "UIInterfaceOrientation"]
+- ["So8NSObjectC", "UIInterfaceOrientationMask"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "appDelegate"]
+- ["So8NSObjectC", "appName"]
+- !private ["So8NSObjectC", "attemptRotationToDeviceOrientation"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lockOrientation"]
+- !private ["So8NSObjectC", "orientationLock"]
+- !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "returnStringFor"]
+- !private ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "showAlertWithHandeler"]
+- ["So8NSObjectC", "showAlertWithMessage"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UIDevice"]
+- !private ["So8NSObjectP", "UINavigationController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "appName"]
+- !private ["So8NSObjectP", "attemptRotationToDeviceOrientation"]
+- !private ["So8NSObjectP", "current"]
+- ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lockOrientation"]
+- !private ["So8NSObjectP", "orientationLock"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "setValue"]
+- ["So8NSObjectP", "shared"]
+- !private ["SY", "alert"]
+- !private ["SY", "cancel"]
+- !private ["SY", "rawValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "attemptRotationToDeviceOrientation"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "orientationLock"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "attemptRotationToDeviceOrientation"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "setValue"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "attemptRotationToDeviceOrientation"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So22UIInterfaceOrientationV", "rawValue"]
+- !private ["So22UINavigationControllerC", "attemptRotationToDeviceOrientation"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "attemptRotationToDeviceOrientation"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "orientationLock"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "attemptRotationToDeviceOrientation"]
+- ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "orientationLock"]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "attemptRotationToDeviceOrientation"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "orientationLock"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "attemptRotationToDeviceOrientation"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "attemptRotationToDeviceOrientation"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "attemptRotationToDeviceOrientation"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "orientationLock"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "attemptRotationToDeviceOrientation"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- ["5Linxy5UtilsC", "AlertComplitionhandler"]
+- ["5Linxy5UtilsC", "AppDelegate"]
+- !private ["5Linxy5UtilsC", "NSNull"]
+- ["5Linxy5UtilsC", "String"]
+- !private ["5Linxy5UtilsC", "UIAlertAction"]
+- !private ["5Linxy5UtilsC", "UIAlertController"]
+- ["5Linxy5UtilsC", "UIApplication"]
+- !private ["5Linxy5UtilsC", "UIDevice"]
+- ["5Linxy5UtilsC", "UIInterfaceOrientation"]
+- ["5Linxy5UtilsC", "UIInterfaceOrientationMask"]
+- !private ["5Linxy5UtilsC", "UINavigationController"]
+- ["5Linxy5UtilsC", "UIViewController"]
+- ["5Linxy5UtilsC", "Void"]
+- ["5Linxy5UtilsC", "appDelegate"]
+- ["5Linxy5UtilsC", "appName"]
+- ["5Linxy5UtilsC", "deinit"]
+- ["5Linxy5UtilsC", "init"]
+- ["5Linxy5UtilsC", "lockOrientation"]
+- ["5Linxy5UtilsC", "returnStringFor"]
+- ["5Linxy5UtilsC", "showAlertWithHandeler"]
+- ["5Linxy5UtilsC", "showAlertWithMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attemptRotationToDeviceOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientationLock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+depends-nominal:
+- !private "5Linxy11AppDelegateC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "So19EasyReadingDelegateP"
+- "SQ"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "s27StringInterpolationProtocolP"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So8UIDeviceC"
+- !private "So18UIFocusEnvironmentP"
+- !private "So22UIInterfaceOrientationV"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- "5Linxy5UtilsC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRUID.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPayoffBase.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/ARPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRCustomDataPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRWebPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LREnhancedWebPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRSharePayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LREmailPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPhoneCallPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRHtmlPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRLocationPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRMmsPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRSmsPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRContactPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRCalendarEventPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRLayoutPayoff.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRAction.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRDetection.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRManager.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRCaptureManager.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRUserInterfaceCustomizationManager.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRNavigationController.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/EasyReadingViewController.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPresenter.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPayoffPresenter.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRPayoffTypes.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LRMarkReadingOptions.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Headers/LinkReaderKit.h"
+- "/Users/tekzee/Desktop/TekZeeProject/Linxy_Git/Linxy/Linxy/LinkReaderKit.framework/Modules/module.modulemap"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Users/tekzee/Desktop/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8d8d02773868a43602c20f202b4bf06a"

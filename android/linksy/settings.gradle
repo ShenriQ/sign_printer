@@ -1,0 +1,1 @@
+include ':app', ':linkreadersdk_3.7.1'
