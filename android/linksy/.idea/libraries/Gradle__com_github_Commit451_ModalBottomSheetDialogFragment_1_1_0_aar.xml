@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Commit451:ModalBottomSheetDialogFragment:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e04c06f4621645a11619f94059d28b28/ModalBottomSheetDialogFragment-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e04c06f4621645a11619f94059d28b28/ModalBottomSheetDialogFragment-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Commit451/ModalBottomSheetDialogFragment/1.1.0/5cf0f0a1c41758e16561c656961925c734449955/ModalBottomSheetDialogFragment-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Commit451/ModalBottomSheetDialogFragment/1.1.0/90d426b1edc87889c6b8d223ab2cf2a3de7d8d22/ModalBottomSheetDialogFragment-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

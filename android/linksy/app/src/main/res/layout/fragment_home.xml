@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment"
+    android:orientation="vertical"
+    android:background="@drawable/bg_home"
+    android:gravity="bottom"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/my_linxymarks_btn"
+            android:layout_width="240dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="42dp"
+            android:background="@drawable/btn_round_white_bluecorner"
+            android:text="My Linxy Marks"
+            android:textColor="#777777"
+            android:drawableLeft="@drawable/ic_linxy_red"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <Button
+            android:layout_width="240dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="42dp"
+            android:background="@drawable/btn_round_white_bluecorner"
+            android:text="Linxy Store"
+            android:textColor="#777777"
+            android:drawableLeft="@drawable/ic_gift"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <Button
+            android:layout_width="240dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_height="42dp"
+            android:background="@drawable/btn_round_white_bluecorner"
+            android:text="How-to Videos"
+            android:textColor="#777777"
+            android:drawableLeft="@drawable/ic_play"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

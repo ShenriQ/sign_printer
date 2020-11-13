@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hp.linkreadersdk"
+    android:versionCode="14"
+    android:versionName="3.7.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="27" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:theme="@style/LiveLinkTheme" >
+        <activity
+            android:name="com.hp.linkreadersdk.payoff.PayoffActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Payoff"
+            android:theme="@style/LiveLinkTheme.Transparent" />
+        <activity
+            android:name="com.hp.linkreadersdk.activity.WebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Web"
+            android:theme="@style/LiveLinkTheme.Transparent" />
+        <activity
+            android:name="com.hp.linkreadersdk.activity.SecureLabelWebViewActivity"
+            android:label="Link Reader"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <provider
+            android:name="com.digimarc.dms.internal.SdkInitProvider"
+            android:authorities="${applicationId}.sdkinitprovider"
+            android:enabled="true"
+            android:exported="false"
+            tools:replace="android:authorities" />
+        <provider
+            android:name="com.digimarc.dms.helpers.camerahelper.CameraInitProvider"
+            android:authorities="${applicationId}.CameraInitProvider"
+            android:enabled="true"
+            android:exported="false"
+            tools:replace="android:authorities" />
+    </application>
+
+</manifest>

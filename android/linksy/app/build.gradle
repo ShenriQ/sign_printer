@@ -22,7 +22,6 @@ android {
     }
 
 
-
     buildTypes {
         release {
             minifyEnabled false
@@ -109,4 +108,5 @@ dependencies {
     implementation 'gun0912.ted:tedpermission:2.2.3'
     implementation 'com.github.Commit451:ModalBottomSheetDialogFragment:1.1.0'
 
+    implementation 'com.android.support:design:28.0.0'
 }

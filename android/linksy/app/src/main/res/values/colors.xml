@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="black">#000000</color>
+    <color name="color_theme_blue">#0080ff</color>
+    <color name="botton_nav_bgcolor">#4c7581</color>
+    <color name="first_color">#4c7581</color>
+    <color name="second_color">#8e9493</color>
 </resources>

@@ -36,4 +36,18 @@
     <string name="select_option">Select Option</string>
     <string name="english">English</string>
     <string name="spanish">Spanish</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="un_sign_in"><u>Sign in</u></string>
+    <string name="un_sign_up"><u>Sign up</u></string>
+    <string name="dont_have_account">Don\'t have account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="hello_signin"><b>Hello, Sign in!</b></string>
+    <string name="create_your_account"><b>Create Your Account</b></string>
+    <string name="create_your_linxymarks">Create your Linxy Mark in 3 easy steps</string>
+    <string name="select_a_photo">Select a photo to Linxy Mark</string>
+    <string name="choose_a_video">Choose a Video to Play</string>
+    <string name="almost_done">Almost done!</string>
+    <string name="my_linxy_marks">My Linxy Marks</string>
 </resources>

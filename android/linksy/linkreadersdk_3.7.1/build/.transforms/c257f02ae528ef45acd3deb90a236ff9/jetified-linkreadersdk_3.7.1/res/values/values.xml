@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="coin_tip_color">#FFF</color>
+    <color name="dark_accent_blue">#1292DD</color>
+    <color name="dark_accent_green">#128B2B</color>
+    <color name="dark_accent_purple">#822980</color>
+    <color name="dark_accent_red">#D7410B</color>
+    <color name="dark_accent_yellow">#FEB300</color>
+    <color name="dark_disabled_text">#33FFFFFF</color>
+    <color name="dark_grey">#4D4D4D</color>
+    <color name="dark_highlight_text">@color/dark_primary_blue</color>
+    <color name="dark_longpress_background">#33007BBB</color>
+    <color name="dark_neutral_dark">#000000</color>
+    <color name="dark_neutral_light">#D5D5D5</color>
+    <color name="dark_neutral_mid">#4D4D4D</color>
+    <color name="dark_neutral_mid_light">#BBBBBB</color>
+    <color name="dark_primary_blue">#007BBB</color>
+    <color name="dark_primary_text">@color/white</color>
+    <color name="dark_primary_white">#FAFAFA</color>
+    <color name="dark_secundary_text">@color/light_secundary_text</color>
+    <color name="hp_dark_blue">#007BBB</color>
+    <color name="hp_graphite">#4D4D4D</color>
+    <color name="hp_grey">#FAFAFA</color>
+    <color name="hp_light_blue">#0096D6</color>
+    <color name="light_accent_blue">#88C8EE</color>
+    <color name="light_accent_green">#88C595</color>
+    <color name="light_accent_purple">#C094BF</color>
+    <color name="light_accent_red">#EBA085</color>
+    <color name="light_accent_yellow">#FED984</color>
+    <color name="light_disabled_text">#33333333</color>
+    <color name="light_grey">#FAFAFA</color>
+    <color name="light_highlight_text">@color/light_primary_blue</color>
+    <color name="light_longpress_background">#330096D6</color>
+    <color name="light_neutral_dark">#333333</color>
+    <color name="light_neutral_light">#F0F0F0</color>
+    <color name="light_neutral_mid">#8B8B8B</color>
+    <color name="light_neutral_mid_light">#E4E4E4</color>
+    <color name="light_primary_blue">#0096D6</color>
+    <color name="light_primary_text">@color/light_neutral_dark</color>
+    <color name="light_primary_white">#FFFFFF</color>
+    <color name="light_secundary_text">@color/light_neutral_mid</color>
+    <color name="linking_background">#CC000000</color>
+    <color name="mid_gray">#E4E4E4</color>
+    <color name="pressed_disabled_text">#33FFFFFF</color>
+    <color name="pressed_highlight_text">@color/dark_grey</color>
+    <color name="pressed_primary_text">@color/white</color>
+    <color name="pressed_secundary_text">@color/white</color>
+    <color name="text_dark_gray">#4B4B4B</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_gray">#90a5a5a5</color>
+    <color name="video_background">#000</color>
+    <color name="weak_gray">#ffa5a5a5</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="ProgressView">
+        <attr format="string|reference" name="progress_view_text"/>
+        <attr format="color" name="progress_view_textColor"/>
+        <attr format="boolean" name="progress_view_showText"/>
+        <attr format="color" name="progress_view_background"/>
+    </declare-styleable>
+    <declare-styleable name="TextView">
+        <attr format="string|reference" name="typeFace"/>
+    </declare-styleable>
+    <declare-styleable name="View">
+        <attr name="android:fadeScrollbars"/>
+        <attr name="android:scrollbarAlwaysDrawHorizontalTrack"/>
+        <attr name="android:scrollbarAlwaysDrawVerticalTrack"/>
+        <attr name="android:scrollbarDefaultDelayBeforeFade"/>
+        <attr name="android:scrollbarFadeDuration"/>
+        <attr name="android:scrollbarSize"/>
+        <attr name="android:scrollbarStyle"/>
+        <attr name="android:scrollbarThumbHorizontal"/>
+        <attr name="android:scrollbarThumbVertical"/>
+        <attr name="android:scrollbarTrackHorizontal"/>
+        <attr name="android:scrollbarTrackVertical"/>
+        <attr name="android:scrollbars"/>
+    </declare-styleable>
+    <dimen name="action_bar_size">48dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="body_data_collection_width">320dp</dimen>
+    <dimen name="body_margin">0dp</dimen>
+    <dimen name="body_padding_bottom">0dp</dimen>
+    <dimen name="body_text_size">20sp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="checkbox_margin_bottom">0dp</dimen>
+    <dimen name="checkbox_margin_left">0dp</dimen>
+    <dimen name="checkbox_margin_top">0dp</dimen>
+    <dimen name="checkbox_padding_bottom">0dp</dimen>
+    <dimen name="checkbox_padding_top">0dp</dimen>
+    <dimen name="coin_layout_padding">8dp</dimen>
+    <dimen name="coin_size">60dp</dimen>
+    <dimen name="coin_text_margin">3dp</dimen>
+    <dimen name="coin_text_size">16sp</dimen>
+    <dimen name="coin_tip_arrow_margin">6dp</dimen>
+    <dimen name="coin_tip_arrow_size">70dp</dimen>
+    <dimen name="crosshair_corner_size">25dp</dimen>
+    <dimen name="crosshair_size">300dp</dimen>
+    <dimen name="data_collection_button_marginBottom">15dp</dimen>
+    <dimen name="data_collection_button_marginLeft">25dp</dimen>
+    <dimen name="data_collection_button_marginRight">25dp</dimen>
+    <dimen name="data_collection_button_padding">14dp</dimen>
+    <dimen name="data_collection_land_button_padding">0dp</dimen>
+    <dimen name="data_collection_land_screen">0dp</dimen>
+    <dimen name="header_font_size">28sp</dimen>
+    <dimen name="learn_more_padding_bottom">0dp</dimen>
+    <dimen name="learn_more_padding_top">0dp</dimen>
+    <dimen name="linked_content_margin_right">0dp</dimen>
+    <dimen name="max_tip_height">240dp</dimen>
+    <dimen name="max_tip_width">240dp</dimen>
+    <dimen name="max_url_height">150dp</dimen>
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="padding_bottom">0dp</dimen>
+    <dimen name="padding_data_collection_and_welcome">0dp</dimen>
+    <dimen name="topic_description_margin_top">1dp</dimen>
+    <dimen name="video_height">200dp</dimen>
+    <dimen name="welcome_padding">0dp</dimen>
+    <dimen name="what_can_i_scan_image_padding">26dp</dimen>
+    <dimen name="what_can_scan_topic">18sp</dimen>
+    <dimen name="what_can_scan_topic_description">16sp</dimen>
+    <item name="autofocus_message" type="id"/>
+    <string name="DMSReadersConfig" translatable="false">
+{
+    "DMSReadersConfig_V2": {
+        "ImageReaders": [
+            {
+               "name": "ImageWatermark",
+                "library": "libDMSImageWatermark.so",
+                "masterEnable": 1,
+                "profiles": {
+                    "high": {
+                        "interval": 1,
+                        "offset": 0
+                    },
+                    "medium": {
+                        "interval": 2,
+                        "offset": 0
+                    },
+                    "low": {
+                        "interval": 4,
+                        "offset": 0
+                    }
+                }
+            },
+            {
+                "name": "ImageBarcode",
+                 "library": "libDMSImageBarcode.so",
+                 "options": {
+                     "read1DBarcodes": 1,
+                     "readQRcodes": 1,
+                     "invertedReadInterval": 0
+                },
+                "masterEnable": 1,
+                "profiles": {
+                    "high": {
+                        "interval": 1,
+                        "offset": 0
+                    },
+                    "medium": {
+                        "interval": 2,
+                        "offset": 0
+                    },
+                    "low": {
+                        "interval": 4,
+                        "offset": 0
+                    }
+                }
+            }
+        ],
+        "AudioReaders": [
+            {
+              	"name": "AudioWatermark",
+                 "library": "libDMSAudioWatermark.so",
+                 "options": {
+                     "decoderFactoryName": "AFRE",
+                     "bufferSeconds": 3
+                 },
+                "masterEnable": 0,
+                "profiles": {
+                    "high": {
+                        "interval": 8,
+                        "offset": 0
+                    },
+                    "medium": {
+                        "interval": 16,
+                        "offset": 0
+                    },
+                    "low": {
+                        "interval": 24,
+                        "offset": 0
+                    }
+                }
+            }
+        ]
+	}
+}
+</string>
+    <string name="FlashTip">Tap the light icon for better scanning results</string>
+    <string name="Get_Started">Get Started</string>
+    <string name="ISO_mode">ISO mode</string>
+    <string name="LivePaperAPI_URL">LPP URL:</string>
+    <string name="No_print_app">You have no app to print installed. Would you like to install HP ePrint app?</string>
+    <string name="Please_help_us_improve_our_app">Please help us improve our app!</string>
+    <string name="Scene_mode">Scene mode</string>
+    <string name="Take_me_to_my_destination">Take me to my destination</string>
+    <string name="Thank_you_for_helping_us_improve_our_app">Thank you for helping us improve our app!</string>
+    <string name="Tip">Tip:</string>
+    <string name="Uh_oh_the_video_cannot_be_displayed_at_this_time">Uh Oh… The video cannot be played at this time</string>
+    <string name="about_text">LinkReader uses linking technologies to deliver digital experiences from HP touch-points. Launch dynamic interactions by scanning QR codes as well as packaging, brochures, printables or any other content designated with the app icon.\n\nVersion %1$s (%2$d)\n\n\nLearn more about HP\'s privacy policy:\nwww.hp.com/go/privacy \n\nSupport:\nwww.hp.com/go/hplivelinksupportus \n</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="anonymous_data_collection">Anonymous data collection</string>
+    <string name="app_name">LinkReaderSDK</string>
+    <string name="coins" translatable="false">Coins</string>
+    <string name="coins_item_history_label">Rich Mobile Experience</string>
+    <string name="coins_size">Size of Coins:</string>
+    <string name="content_not_supported">The content you are trying to reach isn\'t supported at this time. Our team is working hard to support this content - check back soon!</string>
+    <string name="content_size">Size of Preview Image:</string>
+    <string name="credits">CREDITS</string>
+    <string name="data_collection_optin_message_1">Allow anonymous data collection on usage, errors, settings, OS, device, and connection type to improve our app.</string>
+    <string name="data_collection_optin_message_2">No personal information will be included in this data.</string>
+    <string name="data_collection_optin_message_3">Learn more about HP\'s <a href="http://www.hp.com/go/privacy">Privacy Policy</a> \n and \n  <a href="http://welcome.hp.com/country/privacy/privacynotice/index.html">Personal Data Rights Notice</a>. \n</string>
+    <string name="data_type_name">Data type:</string>
+    <string name="deleted_history_item">Deleted %s</string>
+    <string name="denoise">Denoise</string>
+    <string name="developer_option_displayed">You are now a developer</string>
+    <string name="diagnostics_activity_title">Diagnostics</string>
+    <string name="diagnostics_email_subject" translatable="false">My Diagnostics for LinkReader</string>
+    <string name="digimarc_version">DMSDK:</string>
+    <string name="disable_fullscreen_button_description">Disable Full Screen Button</string>
+    <string name="display_information">Display</string>
+    <string name="download_failed">Failed to download content</string>
+    <string name="downloaded_file">Downloaded file %s</string>
+    <string name="dump_camera_parameters">Dump Camera Parameters</string>
+    <string name="elv_undo">Undo</string>
+    <string name="empty_history">Your scans will be displayed here so you can view them at any time.</string>
+    <string name="enable_fullscreen_button_description">Enable Full Screen button</string>
+    <string name="enter_password">Enter the password:</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_chooser_title">Send Email</string>
+    <string name="feedback_email_subject">My feedback for LinkReader</string>
+    <string name="flash_status_name">Flash Status:</string>
+    <string name="flash_tip_anchor_descripton">Flash Tip Anchor</string>
+    <string name="generic_link_error_message">This content is unacessible at this time. You can try again later.</string>
+    <string name="generic_link_error_title">Link Error</string>
+    <string name="help_us_improve">HELP US IMPROVE OUR APP</string>
+    <string name="help_us_improve_our_app">Help us improve our app</string>
+    <string name="history_android_market" translatable="false">Android Market</string>
+    <string name="history_contact" translatable="false">Contact</string>
+    <string name="history_custom_data" translatable="false">Link Custom</string>
+    <string name="history_email" translatable="false">Email</string>
+    <string name="history_event" translatable="false">Event</string>
+    <string name="history_geo" translatable="false">Geo / Location</string>
+    <string name="history_html" translatable="false">HTML</string>
+    <string name="history_mms" translatable="false">MMS</string>
+    <string name="history_offline_web_url" translatable="false">Offline Web URL</string>
+    <string name="history_sms" translatable="false">SMS</string>
+    <string name="history_sqr" translatable="false">SQR</string>
+    <string name="history_telephone" translatable="false">Telephone</string>
+    <string name="history_unknown" translatable="false">Unknown</string>
+    <string name="history_web_url" translatable="false">Web URL</string>
+    <string name="history_wifi" translatable="false">Wi-Fi</string>
+    <string name="history_youtube" translatable="false">YouTube</string>
+    <string name="http_error_dialog_message">Link responded with an HTTP Error: %1$s %2$s</string>
+    <string name="http_error_title">Link error</string>
+    <string name="http_response_status">Repo Status:</string>
+    <string name="invalid_link_dialog_content">Unable to open link due to invalid content.</string>
+    <string name="invalid_link_dialog_title">Invalid Link</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="light">light</string>
+    <string name="link_no_longer_active_message">Error finding content. This Link may have expired or is no longer valid.</string>
+    <string name="link_no_longer_active_title">Link No Longer Active</string>
+    <string name="link_to_website">Link to Website</string>
+    <string name="linkingEllipsis">Linking…</string>
+    <string name="linking_information">Linking</string>
+    <string name="linking_payoff_data_name">Payoff Data:</string>
+    <string name="linking_status">Status:</string>
+    <string name="linking_time_name">Time to link:</string>
+    <string name="loading_action">Downloading Content…</string>
+    <string name="loading_animation_time">Total Loading time:</string>
+    <string name="loading_coins">Loading…</string>
+    <string name="loading_information">Loading</string>
+    <string name="loading_video">Loading Video…</string>
+    <string name="log_entry">Scan Entry Log</string>
+    <string name="mic_redirection_text">To validate its HP Authenticity press continue.</string>
+    <string name="mic_redirection_title">Security Label Detected</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="network_timeout_message">The server request has timed out. Please check your connection or try again in a few moments.</string>
+    <string name="network_timeout_title">Network timeout</string>
+    <string name="no_internet_connection_history_message">It looks like you aren\'t connected to the Internet. If you find yourself unexpectedly offline, take a deep breath and enjoy it for a moment. Then, check your Internet connection, connect and scan again.</string>
+    <string name="no_internet_connection_message">It looks like you aren\'t connected to the Internet. Don\'t worry, you can check your scanned items under History on the side menu at any time.</string>
+    <string name="no_internet_connection_title">No Internet Connection</string>
+    <string name="offline_scan">Offline Scan</string>
+    <string name="ok">OK</string>
+    <string name="open_in_browser">This link will open in your browser:</string>
+    <string name="open_source_attribution">Open source attribution</string>
+    <string name="opening_camera">Opening Scanner…</string>
+    <string name="password">Password:</string>
+    <string name="password_hint">Type your password here...</string>
+    <string name="pause_button_description">Pause Button</string>
+    <string name="payload_data_name">Payload Data:</string>
+    <string name="payload_source_name">Payload Source:</string>
+    <string name="payoff_image_description">Main Image</string>
+    <string name="phone_call_unavailable_dialog_message">We\'re sorry. You scanned content that dials a number, but this device can\'t make phone calls.</string>
+    <string name="phone_call_unavailable_dialog_title">Phone Call</string>
+    <string name="play_button_description">Play Button</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="print">Print</string>
+    <string name="print_action_developer_option">Swap WebPage Coins for Print Coins</string>
+    <string name="repository_request_error">Repo Error:</string>
+    <string name="repository_time">Repo request time:</string>
+    <string name="repository_version">Repo Version:</string>
+    <string name="rich_mobile_experience">Rich Mobile Experience</string>
+    <string name="scan_help_body">We\'re having difficulty finding anything. Frame the desired content while holding still and wait for the item to focus. Try different distances and try using the light.</string>
+    <string name="setup_information">Setup</string>
+    <string name="share_dialog_title">Share with...</string>
+    <string name="show_diagnostics">Show Diagnostics</string>
+    <string name="starting_print_job">Starting Print Job</string>
+    <string name="time_to_load_coins">Time to load coins:</string>
+    <string name="time_to_load_data_type">Time to load layout:</string>
+    <string name="time_to_show">Time to present layout:</string>
+    <string name="time_to_trigger_name">Time to Trigger:</string>
+    <string name="tips_and_help"><![CDATA[Tips & Help]]></string>
+    <string name="title_about">About</string>
+    <string name="title_activity_data_collection">DataCollectionOptionActivity</string>
+    <string name="title_activity_licenses">Attributions</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_developer">Developer</string>
+    <string name="title_history">History</string>
+    <string name="title_not_found">Page title not found</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_scanner_help_dialog" translatable="false">Hmm…</string>
+    <string name="title_send_us_feedback">Send us feedback</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_what_can_i_scan">What can I scan?</string>
+    <string name="total_time_from_trigger_to_display">Time From Trigger to Display:</string>
+    <string name="trigger_error_name">Trigger Error:</string>
+    <string name="triggering_information">Triggering</string>
+    <string name="triggering_section">Triggering</string>
+    <string name="uh_oh">Uh Oh!</string>
+    <string name="unexpected_error_message">An unexpected error has occurred. Please scan again in a few moments.</string>
+    <string name="unexpected_error_title">Uh Oh!</string>
+    <string name="unknown_host_message">We were not able to reach the server this link points to. Try again later.</string>
+    <string name="unknown_host_title">Unknown host</string>
+    <string name="unsupported_qr_code_message">We\'re unable to read this QR code just yet. Our team is working to include this code type - check back soon!</string>
+    <string name="unsupported_qr_code_title">You\'re Ahead of Us!</string>
+    <string name="update_dialog_message">Viewing this content requires an updated version of the app.</string>
+    <string name="update_dialog_negative">Maybe Later</string>
+    <string name="update_dialog_positive">Update Now</string>
+    <string name="update_dialog_title">Time to Update Your App!</string>
+    <string name="use_web_view">Use Embedded WebView for RichPayoff</string>
+    <string name="vibrate_on_detection">Vibrate on detection</string>
+    <string name="video_failure_icon_description">Video Failure Icon</string>
+    <string name="video_timeout_open_in_browser">Uh Oh… The video could not be played.\nTap the icon to view in browser.</string>
+    <string name="welcome_to_Link_by_HP">Welcome to LinkReader</string>
+    <string name="what_can_i_scan_top_text">With this app, scan these items to launch dynamic experiences:</string>
+    <string name="what_can_i_scan_top_text_digimarc_text">Scan packaging, brochures, documents or any other content designated with the app icon</string>
+    <string name="what_can_i_scan_top_text_digimarc_title">Linked Content</string>
+    <string name="what_can_i_scan_top_text_qr_code_text">Scan QR codes</string>
+    <string name="what_can_i_scan_top_text_qr_code_title">QR Codes</string>
+    <string name="youtube_key">AIzaSyD-ft1S59r0oCKru9QYK7Rm4F0fIfPHBDU</string>
+    <style name="HPTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/HPTheme.ActionBar</item>
+        <item name="android:listChoiceBackgroundIndicator">@color/hp_light_blue</item>
+    </style>
+    <style name="HPTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/hp_light_blue</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="LiveLinkTheme" parent="@style/HPTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+    </style>
+    <style name="LiveLinkTheme.Fullscreen" parent="LiveLinkTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="LiveLinkTheme.NoActionBar" parent="@style/HPTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="LiveLinkTheme.OverlayActionBar" parent="LiveLinkTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="LiveLinkTheme.Transparent" parent="LiveLinkTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="LiveLinkTheme.Transparent.Dark" parent="LiveLinkTheme.Transparent">
+        <item name="android:windowBackground">@color/linking_background</item>
+    </style>
+    <style name="MediaButton" parent="@android:style/MediaButton"/>
+    <style name="MediaButton.Fullscreen">
+        <item name="android:src">@drawable/show_fullscreen</item>
+    </style>
+    <style name="MediaControllerProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/media_controller_progress</item>
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+    </style>
+    <style name="ToastTip.TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ToastTipTitle.TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/hp_light_blue</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

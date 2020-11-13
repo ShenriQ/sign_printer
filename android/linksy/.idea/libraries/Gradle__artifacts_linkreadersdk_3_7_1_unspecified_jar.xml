@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:linkreadersdk_3.7.1:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/linkreadersdk_3.7.1/build/.transforms/c257f02ae528ef45acd3deb90a236ff9/jetified-linkreadersdk_3.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/linkreadersdk_3.7.1/build/.transforms/c257f02ae528ef45acd3deb90a236ff9/jetified-linkreadersdk_3.7.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.reactiveandroid:reactiveandroid:1.4.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfd9dc2731734ab591fabc9dda5afc9/jetified-reactiveandroid-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfd9dc2731734ab591fabc9dda5afc9/jetified-reactiveandroid-1.4.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reactiveandroid/reactiveandroid/1.4.3/836db108191bdab4fc1125367052f706f4edf120/reactiveandroid-1.4.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reactiveandroid/reactiveandroid/1.4.3/c7d4ad24e498fc332fe5a4db3dced52fd7c92a9f/reactiveandroid-1.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

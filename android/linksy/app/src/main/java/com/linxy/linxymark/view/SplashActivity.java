@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +23,8 @@ import java.util.List;
 
 public class SplashActivity extends AppCompatActivity {
     private static final int CAMERA_PERMISSION_CODE = 1;
+
+
     @SuppressLint("HandlerLeak")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +33,6 @@ public class SplashActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_splash);
         askPersmission();
-
     }
 
 
@@ -43,9 +46,9 @@ public class SplashActivity extends AppCompatActivity {
                     public void handleMessage(Message msg) {
                         super.handleMessage(msg);
 //                 Start home activity
-                        startActivity(new Intent(SplashActivity.this, CustomMainActivity.class));
+//                        startActivity(new Intent(SplashActivity.this, CustomMainActivity.class));
 //                 close splash activity
-                        finish();
+//                        finish();
                     }
                 }.sendEmptyMessageDelayed(0,2000);
             }
@@ -54,17 +57,13 @@ public class SplashActivity extends AppCompatActivity {
             public void onPermissionDenied(List<String> deniedPermissions) {
                 showDialog("Alert", "Camera permission not granted! Can not scan!");
             }
-
-
         };
+
         TedPermission.with(this)
                 .setPermissionListener(permissionlistener)
                 .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
                 .setPermissions(Manifest.permission.CAMERA)
                 .check();
-
-
-
 
     }
 
@@ -82,4 +81,15 @@ public class SplashActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    public void onLoginPress(View view)
+    {
+        startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+        finish();
+    }
+
+    public void onRegisterPress(View view)
+    {
+        startActivity(new Intent(SplashActivity.this, RegisterActivity.class));
+        finish();
+    }
 }
