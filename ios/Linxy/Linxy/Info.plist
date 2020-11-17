@@ -42,7 +42,7 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>TTTTT</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>Auth</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
