@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="-1109" y="47"/>
         </scene>
-        <!--Auth View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="gHE-Em-DfC">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UZD-Ez-eYQ" customClass="AuthViewController" customModule="Linxy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UZD-Ez-eYQ" customClass="LoginViewController" customModule="Linxy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pq1-SA-MK5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,6 +259,9 @@
                                                 <real key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onLogin:" destination="UZD-Ez-eYQ" eventType="touchUpInside" id="2Ox-Si-NfZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -305,12 +308,15 @@
                                                 <fragment content="SIGN UP">
                                                     <attributes>
                                                         <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                                        <font key="NSFont" metaFont="menu" size="14"/>
                                                         <integer key="NSUnderline" value="1"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="goRegister:" destination="UZD-Ez-eYQ" eventType="touchUpInside" id="BhJ-Y0-8re"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -350,10 +356,10 @@
             </objects>
             <point key="canvasLocation" x="-207.24637681159422" y="-225"/>
         </scene>
-        <!--Auth View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="rl6-PE-O0W">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Nyn-ew-xM7" customClass="AuthViewController" customModule="Linxy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Nyn-ew-xM7" customClass="RegisterViewController" customModule="Linxy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="acA-mo-hpG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -570,6 +576,9 @@
                                                 <real key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onRegister:" destination="Nyn-ew-xM7" eventType="touchUpInside" id="w9J-1X-EaV"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -617,12 +626,15 @@
                                                 <fragment content="SIGN IN">
                                                     <attributes>
                                                         <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                                        <font key="NSFont" metaFont="menu" size="14"/>
                                                         <integer key="NSUnderline" value="1"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="goLogin:" destination="Nyn-ew-xM7" eventType="touchUpInside" id="VkF-jx-8V3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
