@@ -1,6 +1,6 @@
 import UIKit
 
-class SelPhotoViewController: UIViewController {
+class MyLinxyMarksViewController: UIViewController {
     
   
     @IBOutlet weak var tableView: UITableView!
@@ -23,14 +23,14 @@ class SelPhotoViewController: UIViewController {
 
 
 //MARK: UITableView Delegate & DataSource
-extension SelPhotoViewController: UITableViewDelegate, UITableViewDataSource {
+extension MyLinxyMarksViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "selphotoTableViewCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "createTableViewCell")
         return cell!
     }
 
@@ -38,8 +38,7 @@ extension SelPhotoViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-
-        return 680
+        return 155
     }
 
 }

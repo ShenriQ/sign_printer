@@ -5,20 +5,20 @@ class AlmostDoneViewController: UIViewController {
   
     @IBOutlet weak var tableView: UITableView!
     override var preferredStatusBarStyle: UIStatusBarStyle {
-    return .lightContent
-  }
+        return .lightContent
+    }
     
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    
-    tableView.delegate = self
-    tableView.dataSource = self
-  }
-    
+    override func viewDidLoad() {
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
-
 }
 
 

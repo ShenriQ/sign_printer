@@ -39,15 +39,15 @@ class HomeVC: UIViewController, EasyReadingDelegate, LRPresenterDelegate, UIAler
             }
         }
     }
-    func initBackgoundImageView(){
-        if UIDevice.current.userInterfaceIdiom == .pad {
-            print("ipad")
-            self.bgImageView.image = UIImage.init(named: "bg_ipad")
-        } else  {
-            print("Iphone")
-            self.bgImageView.image = UIImage.init(named: "bg_iphone")
-        }
-    }
+//    func initBackgoundImageView(){
+//        if UIDevice.current.userInterfaceIdiom == .pad {
+//            print("ipad")
+//            self.bgImageView.image = UIImage.init(named: "bg_ipad")
+//        } else  {
+//            print("Iphone")
+//            self.bgImageView.image = UIImage.init(named: "bg_iphone")
+//        }
+//    }
     override open func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         self.rotationImage(withSize: size)
     }

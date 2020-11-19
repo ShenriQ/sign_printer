@@ -17,6 +17,8 @@
 		2AF8ED73256656DC0060043E /* SelPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED72256656DC0060043E /* SelPhotoViewController.swift */; };
 		2AF8ED7525666D5F0060043E /* SelVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED7425666D5F0060043E /* SelVideoViewController.swift */; };
 		2AF8ED77256671DE0060043E /* AlmostDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED76256671DE0060043E /* AlmostDoneViewController.swift */; };
+		2AF8ED7925667C040060043E /* MyLinxyMarks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8ED7825667C040060043E /* MyLinxyMarks.storyboard */; };
+		2AF8ED7C25668BFF0060043E /* MyLinxyMarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED7B25668BFF0060043E /* MyLinxyMarksViewController.swift */; };
 		2AFE6CF325652929009776F6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF225652929009776F6 /* Home.storyboard */; };
 		2AFE6CF625653018009776F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF525653018009776F6 /* HomeViewController.swift */; };
 		2AFE6CF825653B1A009776F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF725653B1A009776F6 /* LoginViewController.swift */; };
@@ -82,6 +84,8 @@
 		2AF8ED72256656DC0060043E /* SelPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelPhotoViewController.swift; sourceTree = "<group>"; };
 		2AF8ED7425666D5F0060043E /* SelVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelVideoViewController.swift; sourceTree = "<group>"; };
 		2AF8ED76256671DE0060043E /* AlmostDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostDoneViewController.swift; sourceTree = "<group>"; };
+		2AF8ED7825667C040060043E /* MyLinxyMarks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyLinxyMarks.storyboard; sourceTree = "<group>"; };
+		2AF8ED7B25668BFF0060043E /* MyLinxyMarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLinxyMarksViewController.swift; sourceTree = "<group>"; };
 		2AFE6CF225652929009776F6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2AFE6CF525653018009776F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2AFE6CF725653B1A009776F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +174,14 @@
 			path = tableCells;
 			sourceTree = "<group>";
 		};
+		2AF8ED7A25668BDE0060043E /* LinxymarksGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8ED7B25668BFF0060043E /* MyLinxyMarksViewController.swift */,
+			);
+			path = LinxymarksGroup;
+			sourceTree = "<group>";
+		};
 		2AFE6CF425652FFB009776F6 /* HomeGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +213,7 @@
 		7F3EE56323027AB900C82AB3 /* Linxy */ = {
 			isa = PBXGroup;
 			children = (
+				2AF8ED7A25668BDE0060043E /* LinxymarksGroup */,
 				2AF8ED6F256644880060043E /* tableCells */,
 				2A754B2C256554A300B2D23F /* CreateGroup */,
 				2AFE6CF425652FFB009776F6 /* HomeGroup */,
@@ -219,6 +232,7 @@
 				2A754B31256555E000B2D23F /* Create.storyboard */,
 				2A8AA6DE25642D4200DC95BE /* Auth.storyboard */,
 				2AFE6CF225652929009776F6 /* Home.storyboard */,
+				2AF8ED7825667C040060043E /* MyLinxyMarks.storyboard */,
 			);
 			path = Linxy;
 			sourceTree = "<group>";
@@ -354,6 +368,7 @@
 				7F3EE56A23027ABA00C82AB3 /* Main.storyboard in Resources */,
 				7F3ED3D72323B04300893E4E /* AttributionCode.html in Resources */,
 				7F3ED3D92323BD4B00893E4E /* Help.html in Resources */,
+				2AF8ED7925667C040060043E /* MyLinxyMarks.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +411,7 @@
 				2A8AA6E2256431EC00DC95BE /* AuthViewController.swift in Sources */,
 				2AF8ED73256656DC0060043E /* SelPhotoViewController.swift in Sources */,
 				2A8AA6E52564455D00DC95BE /* UITextFieldExtension.swift in Sources */,
+				2AF8ED7C25668BFF0060043E /* MyLinxyMarksViewController.swift in Sources */,
 				7F427971231FD3140047B2DF /* CutsomWebViewVC.swift in Sources */,
 				7F3EE59F2302A20000C82AB3 /* AttributionVC.swift in Sources */,
 				7F3EE594230287F400C82AB3 /* Credentials.swift in Sources */,
