@@ -14,6 +14,9 @@
 		2A8AA6DF25642D4200DC95BE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AA6DE25642D4200DC95BE /* Auth.storyboard */; };
 		2A8AA6E2256431EC00DC95BE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AA6E1256431EC00DC95BE /* AuthViewController.swift */; };
 		2A8AA6E52564455D00DC95BE /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AA6E42564455D00DC95BE /* UITextFieldExtension.swift */; };
+		2AF8ED73256656DC0060043E /* SelPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED72256656DC0060043E /* SelPhotoViewController.swift */; };
+		2AF8ED7525666D5F0060043E /* SelVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED7425666D5F0060043E /* SelVideoViewController.swift */; };
+		2AF8ED77256671DE0060043E /* AlmostDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8ED76256671DE0060043E /* AlmostDoneViewController.swift */; };
 		2AFE6CF325652929009776F6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF225652929009776F6 /* Home.storyboard */; };
 		2AFE6CF625653018009776F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF525653018009776F6 /* HomeViewController.swift */; };
 		2AFE6CF825653B1A009776F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE6CF725653B1A009776F6 /* LoginViewController.swift */; };
@@ -76,6 +79,9 @@
 		2A8AA6DE25642D4200DC95BE /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		2A8AA6E1256431EC00DC95BE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		2A8AA6E42564455D00DC95BE /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		2AF8ED72256656DC0060043E /* SelPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelPhotoViewController.swift; sourceTree = "<group>"; };
+		2AF8ED7425666D5F0060043E /* SelVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelVideoViewController.swift; sourceTree = "<group>"; };
+		2AF8ED76256671DE0060043E /* AlmostDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostDoneViewController.swift; sourceTree = "<group>"; };
 		2AFE6CF225652929009776F6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2AFE6CF525653018009776F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2AFE6CF725653B1A009776F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +137,10 @@
 		2A754B2C256554A300B2D23F /* CreateGroup */ = {
 			isa = PBXGroup;
 			children = (
+				2AF8ED72256656DC0060043E /* SelPhotoViewController.swift */,
 				2A754B2F2565557A00B2D23F /* CreateViewController.swift */,
+				2AF8ED7425666D5F0060043E /* SelVideoViewController.swift */,
+				2AF8ED76256671DE0060043E /* AlmostDoneViewController.swift */,
 			);
 			path = CreateGroup;
 			sourceTree = "<group>";
@@ -385,6 +394,7 @@
 			files = (
 				2AFE6CF825653B1A009776F6 /* LoginViewController.swift in Sources */,
 				2A8AA6E2256431EC00DC95BE /* AuthViewController.swift in Sources */,
+				2AF8ED73256656DC0060043E /* SelPhotoViewController.swift in Sources */,
 				2A8AA6E52564455D00DC95BE /* UITextFieldExtension.swift in Sources */,
 				7F427971231FD3140047B2DF /* CutsomWebViewVC.swift in Sources */,
 				7F3EE59F2302A20000C82AB3 /* AttributionVC.swift in Sources */,
@@ -399,6 +409,8 @@
 				7F3EE59823029CE300C82AB3 /* PrivacyPolicyVC.swift in Sources */,
 				2AFE6CF625653018009776F6 /* HomeViewController.swift in Sources */,
 				7F47824623040A4E00BB9E0A /* Extension.swift in Sources */,
+				2AF8ED77256671DE0060043E /* AlmostDoneViewController.swift in Sources */,
+				2AF8ED7525666D5F0060043E /* SelVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
