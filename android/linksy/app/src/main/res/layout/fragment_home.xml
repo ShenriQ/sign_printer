@@ -8,6 +8,20 @@
     android:background="@drawable/bg_home"
     android:gravity="bottom"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        >
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_logo"
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -66,8 +66,8 @@
                 android:layout_gravity="center"
                 >
                 <Button
-                    android:layout_width="220dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="175dp"
+                    android:layout_height="54dp"
                     android:background="@drawable/img_choose_video"
                     />
                 <TextView
