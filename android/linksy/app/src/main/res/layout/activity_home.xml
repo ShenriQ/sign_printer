@@ -27,17 +27,16 @@
         android:layout_marginRight="0dp"
         android:layout_marginBottom="1dp"
         >
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:layout_weight="1"
-            android:text="Scan"
+            android:text="Create"
             android:background="@drawable/btn_rect"
-            android:drawableLeft="@drawable/ic_scan"
+            android:drawableLeft="@drawable/ic_plus"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"
-            android:onClick="onScanMarks"
+            android:onClick="onCreateMarks"
             >
         </Button>
         <View
@@ -49,12 +48,12 @@
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:layout_weight="1"
-            android:text="Create"
+            android:text="Scan"
             android:background="@drawable/btn_rect"
-            android:drawableLeft="@drawable/ic_plus"
+            android:drawableLeft="@drawable/ic_scan"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"
-            android:onClick="onCreateMarks"
+            android:onClick="onScanMarks"
             >
         </Button>
     </LinearLayout>
