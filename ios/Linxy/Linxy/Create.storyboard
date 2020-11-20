@@ -25,17 +25,17 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ak3-DP-Oxs">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3g-fi-EvQ">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45c-14-t54">
                                                         <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="   SCAN" image="ic_scan">
+                                                        <state key="normal" title="    CREATE" image="ic_plus">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45c-14-t54">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3g-fi-EvQ">
                                                         <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="    CREATE" image="ic_plus">
+                                                        <state key="normal" title="   SCAN" image="ic_scan">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
@@ -432,17 +432,17 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Oz0-0K-XjK">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFJ-WY-y2B">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVs-Ps-pnX">
                                                         <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="   SCAN" image="ic_scan">
+                                                        <state key="normal" title="    CREATE" image="ic_plus">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVs-Ps-pnX">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFJ-WY-y2B">
                                                         <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="    CREATE" image="ic_plus">
+                                                        <state key="normal" title="   SCAN" image="ic_scan">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
@@ -551,7 +551,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-X1-59e">
-                                                    <rect key="frame" x="97" y="61" width="220" height="419.5"/>
+                                                    <rect key="frame" x="97" y="61" width="220" height="432"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_default" translatesAutoresizingMaskIntoConstraints="NO" id="CnM-9m-2Un">
                                                             <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
@@ -560,28 +560,40 @@
                                                                 <constraint firstAttribute="height" constant="200" id="Bxi-MJ-LWJ"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v3N-0i-uH3">
-                                                            <rect key="frame" x="0.0" y="224" width="220" height="67.5"/>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E43-D9-gN4">
+                                                            <rect key="frame" x="0.0" y="224" width="220" height="80"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2g-rl-Qrk">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="220" height="54"/>
+                                                                    <rect key="frame" x="22.5" y="8" width="175" height="54"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="175" id="MaB-9z-S17"/>
+                                                                        <constraint firstAttribute="height" constant="54" id="f6g-iT-nv9"/>
+                                                                    </constraints>
                                                                     <state key="normal" backgroundImage="img_choose_img"/>
                                                                 </button>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jpg or jpeg, max 10mb " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqz-pK-Svt">
-                                                                    <rect key="frame" x="0.0" y="54" width="220" height="13.5"/>
+                                                                    <rect key="frame" x="50.5" y="66" width="119.5" height="13.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                     <color key="textColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                        </stackView>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="80" id="20Q-Xv-wSO"/>
+                                                                <constraint firstItem="Cqz-pK-Svt" firstAttribute="centerX" secondItem="E43-D9-gN4" secondAttribute="centerX" id="Lh9-bD-V8E"/>
+                                                                <constraint firstItem="X2g-rl-Qrk" firstAttribute="top" secondItem="E43-D9-gN4" secondAttribute="top" constant="8" id="NaZ-T0-qIV"/>
+                                                                <constraint firstItem="X2g-rl-Qrk" firstAttribute="centerX" secondItem="E43-D9-gN4" secondAttribute="centerX" id="Woj-lR-ZJK"/>
+                                                                <constraint firstItem="Cqz-pK-Svt" firstAttribute="top" secondItem="X2g-rl-Qrk" secondAttribute="bottom" constant="4" id="WzY-PY-Zn3"/>
+                                                            </constraints>
+                                                        </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhC-Pu-jpw">
-                                                            <rect key="frame" x="0.0" y="315.5" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="328" width="220" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="9lf-2Q-NaI"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                            <state key="normal" title="  Linxy Photo Library  " image="ic_linxy_red">
+                                                            <state key="normal" title="  Linxy Photo Library  " image="ic_linxy_red_24">
                                                                 <color key="titleColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                                                             </state>
@@ -598,7 +610,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19r-7z-Arr">
-                                                            <rect key="frame" x="0.0" y="379.5" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="392" width="220" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="LUN-xe-1Vr"/>
                                                             </constraints>
@@ -621,7 +633,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZY-uD-eTi">
-                                                    <rect key="frame" x="45" y="495.5" width="324" height="90"/>
+                                                    <rect key="frame" x="45" y="508" width="324" height="90"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-QV-b8V">
                                                             <rect key="frame" x="234" y="25" width="78" height="40"/>
@@ -715,17 +727,17 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xfy-vN-0Z5">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-gI-DGj">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-gu-llI">
                                                         <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="   SCAN" image="ic_scan">
+                                                        <state key="normal" title="    CREATE" image="ic_plus">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-gu-llI">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-gI-DGj">
                                                         <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="    CREATE" image="ic_plus">
+                                                        <state key="normal" title="   SCAN" image="ic_scan">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
@@ -834,7 +846,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-60-Wae">
-                                                    <rect key="frame" x="97" y="61" width="220" height="432.5"/>
+                                                    <rect key="frame" x="97" y="61" width="220" height="447"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_default_video" translatesAutoresizingMaskIntoConstraints="NO" id="Ytc-ZZ-Bwk">
                                                             <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
@@ -843,28 +855,42 @@
                                                                 <constraint firstAttribute="width" constant="220" id="veB-xc-ohC"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iSf-Jt-8Rl">
-                                                            <rect key="frame" x="0.0" y="224" width="220" height="80.5"/>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mqr-c8-Wqi">
+                                                            <rect key="frame" x="0.0" y="224" width="220" height="95"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ML-Nr-8NY">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="220" height="54"/>
+                                                                    <rect key="frame" x="22.5" y="5" width="175" height="54"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="54" id="5X7-pq-0iA"/>
+                                                                        <constraint firstAttribute="width" constant="175" id="8fE-Dm-GxB"/>
+                                                                    </constraints>
                                                                     <state key="normal" backgroundImage="img_choose_video"/>
                                                                 </button>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From your phone, tablet or computer (max 200mb)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2l-eB-Kkq">
-                                                                    <rect key="frame" x="0.0" y="54" width="220" height="26.5"/>
+                                                                    <rect key="frame" x="2" y="63" width="216" height="26.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                     <color key="textColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                        </stackView>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <constraints>
+                                                                <constraint firstItem="3ML-Nr-8NY" firstAttribute="centerX" secondItem="Mqr-c8-Wqi" secondAttribute="centerX" id="FVb-8k-YbS"/>
+                                                                <constraint firstItem="g2l-eB-Kkq" firstAttribute="top" secondItem="3ML-Nr-8NY" secondAttribute="bottom" constant="4" id="Nro-xi-OEK"/>
+                                                                <constraint firstItem="g2l-eB-Kkq" firstAttribute="centerX" secondItem="Mqr-c8-Wqi" secondAttribute="centerX" id="Xsb-4z-w1g"/>
+                                                                <constraint firstItem="g2l-eB-Kkq" firstAttribute="leading" secondItem="Mqr-c8-Wqi" secondAttribute="leading" constant="2" id="fPp-0E-6AQ"/>
+                                                                <constraint firstItem="3ML-Nr-8NY" firstAttribute="top" secondItem="Mqr-c8-Wqi" secondAttribute="top" constant="5" id="gtQ-DB-f89"/>
+                                                                <constraint firstAttribute="trailing" secondItem="g2l-eB-Kkq" secondAttribute="trailing" constant="2" id="k68-iC-zNb"/>
+                                                                <constraint firstAttribute="height" constant="95" id="wp9-NX-j6s"/>
+                                                            </constraints>
+                                                        </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOw-Lg-s3J">
-                                                            <rect key="frame" x="0.0" y="328.5" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="343" width="220" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="2T8-zc-lw9"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                            <state key="normal" title="  Choose From Youtube" image="ic_linxy_red">
+                                                            <state key="normal" title="  Choose From Youtube" image="ic_linxy_red_24">
                                                                 <color key="titleColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -880,7 +906,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKv-N7-UVM">
-                                                            <rect key="frame" x="0.0" y="392.5" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="407" width="220" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="NIm-qy-f13"/>
                                                             </constraints>
@@ -903,7 +929,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-iM-8nL">
-                                                    <rect key="frame" x="45" y="508.5" width="324" height="90"/>
+                                                    <rect key="frame" x="45" y="523" width="324" height="90"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApQ-B6-Dd8">
                                                             <rect key="frame" x="234" y="25" width="78" height="40"/>
@@ -997,17 +1023,17 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="PgE-ox-qpm">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShN-cW-hmj">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRG-1d-qSY">
                                                         <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="   SCAN" image="ic_scan">
+                                                        <state key="normal" title="    CREATE" image="ic_plus">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRG-1d-qSY">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShN-cW-hmj">
                                                         <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="    CREATE" image="ic_plus">
+                                                        <state key="normal" title="   SCAN" image="ic_scan">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
@@ -1289,7 +1315,7 @@
     <resources>
         <image name="ic_help" width="56" height="32"/>
         <image name="ic_link" width="26" height="26"/>
-        <image name="ic_linxy_red" width="10.666666984558105" height="10.666666984558105"/>
+        <image name="ic_linxy_red_24" width="24" height="24"/>
         <image name="ic_logo_white" width="63" height="32"/>
         <image name="ic_plus" width="24" height="24"/>
         <image name="ic_scan" width="32" height="32"/>

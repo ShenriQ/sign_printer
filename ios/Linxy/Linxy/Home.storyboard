@@ -28,24 +28,24 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ak3-DP-Oxs">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3g-fi-EvQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
-                                                        <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="   SCAN" image="ic_scan">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="onScan:" destination="TWT-TT-K7a" eventType="touchUpInside" id="Ie4-cv-zUA"/>
-                                                        </connections>
-                                                    </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45c-14-t54">
-                                                        <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="45"/>
                                                         <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="    CREATE" image="ic_plus">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="onCreate:" destination="TWT-TT-K7a" eventType="touchUpInside" id="2Nf-jt-2pS"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3g-fi-EvQ">
+                                                        <rect key="frame" x="207.5" y="0.0" width="206.5" height="45"/>
+                                                        <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="   SCAN" image="ic_scan">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="onScan:" destination="TWT-TT-K7a" eventType="touchUpInside" id="Ie4-cv-zUA"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
