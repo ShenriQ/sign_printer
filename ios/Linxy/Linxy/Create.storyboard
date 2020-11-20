@@ -583,6 +583,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <state key="normal" title="  Linxy Photo Library  " image="ic_linxy_red">
                                                                 <color key="titleColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="btnBorderWidth">
@@ -1288,7 +1289,7 @@
     <resources>
         <image name="ic_help" width="56" height="32"/>
         <image name="ic_link" width="26" height="26"/>
-        <image name="ic_linxy_red" width="32" height="32"/>
+        <image name="ic_linxy_red" width="10.666666984558105" height="10.666666984558105"/>
         <image name="ic_logo_white" width="63" height="32"/>
         <image name="ic_plus" width="24" height="24"/>
         <image name="ic_scan" width="32" height="32"/>

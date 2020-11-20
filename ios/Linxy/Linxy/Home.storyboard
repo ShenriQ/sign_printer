@@ -200,14 +200,23 @@
                                     <constraint firstItem="KLS-fJ-gI3" firstAttribute="leading" secondItem="Kce-lh-vaL" secondAttribute="leading" constant="2" id="yEP-N9-Rvh"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Jax-6R-e8d">
+                                <rect key="frame" x="337" y="59" width="62" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="FLs-bf-Q9X"/>
+                                    <constraint firstAttribute="width" constant="62" id="r6G-qy-UiO"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="inX-Ga-8Jk" firstAttribute="top" secondItem="h3z-88-ltT" secondAttribute="top" id="1Wh-tk-2DD"/>
                             <constraint firstAttribute="bottom" secondItem="inX-Ga-8Jk" secondAttribute="bottom" id="HtA-9b-IJ6"/>
+                            <constraint firstItem="bgG-hA-P9S" firstAttribute="trailing" secondItem="Jax-6R-e8d" secondAttribute="trailing" constant="15" id="Lgu-4e-Jje"/>
                             <constraint firstItem="qgb-pg-2Yu" firstAttribute="leading" secondItem="h3z-88-ltT" secondAttribute="leading" id="ZCk-qc-Rac"/>
                             <constraint firstAttribute="bottom" secondItem="qgb-pg-2Yu" secondAttribute="bottom" id="aLZ-Iw-62n"/>
                             <constraint firstItem="qgb-pg-2Yu" firstAttribute="trailing" secondItem="h3z-88-ltT" secondAttribute="trailing" id="fIf-bX-ZOH"/>
+                            <constraint firstItem="Jax-6R-e8d" firstAttribute="top" secondItem="bgG-hA-P9S" secondAttribute="top" constant="15" id="hgs-4t-Ez0"/>
                             <constraint firstItem="inX-Ga-8Jk" firstAttribute="leading" secondItem="h3z-88-ltT" secondAttribute="leading" id="kmV-1r-9dD"/>
                             <constraint firstItem="Kce-lh-vaL" firstAttribute="centerX" secondItem="h3z-88-ltT" secondAttribute="centerX" id="nUi-w8-Sg9"/>
                             <constraint firstItem="inX-Ga-8Jk" firstAttribute="trailing" secondItem="h3z-88-ltT" secondAttribute="trailing" id="oE7-bk-e6A"/>
@@ -241,10 +250,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg_home" width="540" height="960"/>
+        <image name="bg_home" width="1080" height="1920"/>
         <image name="ic_gift" width="32" height="32"/>
         <image name="ic_help" width="56" height="32"/>
         <image name="ic_linxy_red" width="32" height="32"/>
+        <image name="ic_logo" width="297" height="150"/>
         <image name="ic_logo_white" width="63" height="32"/>
         <image name="ic_play" width="32" height="32"/>
         <image name="ic_plus" width="24" height="24"/>
