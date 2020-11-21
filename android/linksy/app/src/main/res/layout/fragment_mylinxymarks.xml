@@ -27,9 +27,10 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
         android:background="@color/white"
+        android:gravity="bottom"
         >
         <TextView
             android:layout_width="100dp"
@@ -37,24 +38,24 @@
             android:paddingLeft="8dp"
             android:text="Link Mark ID"
             android:textColor="@color/first_color"
-            android:layout_gravity="center"
+            android:layout_gravity="bottom"
             android:textSize="12sp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Photo"
+            android:text="    Photo"
             android:textColor="@color/first_color"
-            android:layout_gravity="center"
+            android:layout_gravity="bottom"
             android:textSize="12sp"
             android:layout_weight="1"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Video"
+            android:text="    Video"
             android:textColor="@color/first_color"
-            android:layout_gravity="center"
+            android:layout_gravity="bottom"
             android:textSize="12sp"
             android:layout_weight="1"
             />
@@ -81,17 +82,29 @@
             android:orientation="horizontal"
             android:background="@color/white"
             >
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="03D548"
-                android:textColor="@color/first_color"
-                android:layout_gravity="center"
-                android:textSize="12sp"
-                android:textAlignment="center"
-                android:layout_weight="1"
-                />
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="03D548"
+                    android:textColor="@color/first_color"
+                    android:layout_gravity="center"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    />
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:background="@drawable/border_round_red"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -169,6 +182,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
         android:gravity="center"
@@ -181,16 +196,17 @@
             android:layout_gravity="center"
             android:textSize="12sp"
             android:textAlignment="center"
-            android:layout_weight="1"
             />
         <View
             android:layout_width="30dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="24dp"
-            android:layout_marginRight="20dp"
-            android:text="Buy more credits"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:text="Buy More Credits"
             android:textAllCaps="false"
             android:textColor="@color/first_color"
             android:textSize="11sp"

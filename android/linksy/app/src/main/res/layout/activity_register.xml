@@ -6,24 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".view.RegisterActivity"
     android:orientation="vertical"
-    android:background="@drawable/bg_signup"
+    android:background="@drawable/bg_blank"
     >
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-        <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        >
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:layout_marginLeft="16dp"
-            android:text="@string/create_your_account"
-            android:textSize="24sp"
-            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:onClick="onRegisterPress"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#4c7581"
+            android:background="@color/transparent"
             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="340dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
         android:layout_weight="1"
         android:orientation="vertical"
         android:gravity="center"
@@ -36,8 +42,9 @@
             android:padding="8dp"
             android:hint="Name"
             android:background="@drawable/border_bottom"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="#4c7581"
+            android:textSize="14sp"
+            android:textColorHint="#4c7581"
             />
         <View
             android:layout_width="wrap_content"
@@ -48,8 +55,9 @@
             android:padding="8dp"
             android:background="@drawable/border_bottom"
             android:hint="Email"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="#4c7581"
+            android:textSize="14sp"
+            android:textColorHint="#4c7581"
             />
         <View
             android:layout_width="wrap_content"
@@ -62,9 +70,9 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="8dp"
-            android:password="false"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="#4c7581"
+            android:textSize="14sp"
+            android:textColorHint="#4c7581" />
         <View
             android:layout_width="wrap_content"
             android:layout_height="18dp" />
@@ -76,9 +84,9 @@
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:padding="8dp"
-            android:password="false"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColor="#4c7581"
+            android:textSize="14sp"
+            android:textColorHint="#4c7581" />
         <View
             android:layout_width="wrap_content"
             android:layout_height="20dp" />
@@ -90,34 +98,8 @@
             android:layout_gravity="end"
             android:text="@string/sign_up"
             android:textSize="14sp"
-            android:background="@drawable/btn_round_trans"
-            />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp"
-        android:layout_gravity="end"
-        android:gravity="right"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/already_have_account"
-            android:textSize="12sp"
-            android:textColor="@color/white"
-            android:textFontWeight="900"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:onClick="onLoginPress"
-            android:text="@string/un_sign_in"
-            android:textSize="15sp"
-            android:background="@color/transparent"
+            android:textColor="#4c7581"
+            android:background="@drawable/btn_round_firstcolor"
             />
     </LinearLayout>
 </LinearLayout>

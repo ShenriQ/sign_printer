@@ -98,6 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="15dp" />
             <Button
+                android:id="@+id/update_next_video_btn"
                 android:layout_width="220dp"
                 android:paddingLeft="12dp"
                 android:paddingRight="12dp"
@@ -108,25 +109,6 @@
                 android:textColor="@color/second_color"
                 android:drawableLeft="@drawable/ic_link"
                 android:textSize="14sp" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-
-            <Button
-                android:id="@+id/update_next_video_btn"
-                android:layout_width="110dp"
-                android:layout_height="38dp"
-                android:layout_gravity="end"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
-                android:text="Next   >"
-                android:textSize="14sp"
-                android:background="@drawable/btn_round_rect"
-                />
         </LinearLayout>
     </LinearLayout>
     </ScrollView>
