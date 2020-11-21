@@ -291,7 +291,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="MmM-Yy-Txu">
                                                             <rect key="frame" x="98" y="19.5" width="180" height="51.5"/>
                                                             <subviews>
-                                                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="@" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hx2-Xn-fIl">
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="@" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hx2-Xn-fIl">
                                                                     <rect key="frame" x="0.0" y="0.0" width="180" height="34"/>
                                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
@@ -300,7 +300,7 @@
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                                 </textField>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Add Email Details &amp; Go!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcb-nF-l74">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Email Details &amp; Go!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcb-nF-l74">
                                                                     <rect key="frame" x="0.0" y="37" width="180" height="14.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                     <nil key="textColor"/>
@@ -629,42 +629,17 @@
                                                                     <real key="value" value="20"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <segue destination="dX1-dC-iZV" kind="show" id="5V7-oR-f66"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZY-uD-eTi">
                                                     <rect key="frame" x="45" y="508" width="324" height="90"/>
-                                                    <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-QV-b8V">
-                                                            <rect key="frame" x="234" y="25" width="78" height="40"/>
-                                                            <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="RHO-bD-vmH"/>
-                                                            </constraints>
-                                                            <state key="normal" title="   Next  &gt;    ">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnBorderWidth">
-                                                                    <real key="value" value="1"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
-                                                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <segue destination="dX1-dC-iZV" kind="show" id="OWu-cI-DfV"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="Hcg-a1-qpd"/>
-                                                        <constraint firstAttribute="trailing" secondItem="udZ-QV-b8V" secondAttribute="trailing" constant="12" id="REF-9m-NAQ"/>
-                                                        <constraint firstItem="udZ-QV-b8V" firstAttribute="centerY" secondItem="jZY-uD-eTi" secondAttribute="centerY" id="qyZ-C2-0dj"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -846,7 +821,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-60-Wae">
-                                                    <rect key="frame" x="97" y="61" width="220" height="447"/>
+                                                    <rect key="frame" x="97" y="61" width="220" height="455"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_default_video" translatesAutoresizingMaskIntoConstraints="NO" id="Ytc-ZZ-Bwk">
                                                             <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
@@ -885,12 +860,12 @@
                                                             </constraints>
                                                         </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOw-Lg-s3J">
-                                                            <rect key="frame" x="0.0" y="343" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="343" width="220" height="44"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="2T8-zc-lw9"/>
+                                                                <constraint firstAttribute="height" constant="44" id="2T8-zc-lw9"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                            <state key="normal" title="  Choose From Youtube" image="ic_linxy_red_24">
+                                                            <state key="normal" title="  Choose From Youtube" image="ic_youtube">
                                                                 <color key="titleColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -901,14 +876,14 @@
                                                                     <color key="value" red="0.5568627451" green="0.58039215690000001" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
+                                                                    <real key="value" value="22"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKv-N7-UVM">
-                                                            <rect key="frame" x="0.0" y="407" width="220" height="40"/>
+                                                            <rect key="frame" x="0.0" y="411" width="220" height="44"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="NIm-qy-f13"/>
+                                                                <constraint firstAttribute="height" constant="44" id="NIm-qy-f13"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <state key="normal" title="        Link to Video        " image="ic_link">
@@ -922,45 +897,20 @@
                                                                     <color key="value" red="0.5568627451" green="0.58039215690000001" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
+                                                                    <real key="value" value="22"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <segue destination="tZb-yf-hcz" kind="show" id="Gp4-Kd-aAa"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-iM-8nL">
-                                                    <rect key="frame" x="45" y="523" width="324" height="90"/>
-                                                    <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApQ-B6-Dd8">
-                                                            <rect key="frame" x="234" y="25" width="78" height="40"/>
-                                                            <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="Ol0-0D-UI4"/>
-                                                            </constraints>
-                                                            <state key="normal" title="   Next  &gt;    ">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnBorderWidth">
-                                                                    <real key="value" value="1"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
-                                                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <segue destination="tZb-yf-hcz" kind="show" id="OMZ-jW-JDF"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
+                                                    <rect key="frame" x="45" y="531" width="324" height="90"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="7b8-dG-hmO"/>
-                                                        <constraint firstItem="ApQ-B6-Dd8" firstAttribute="centerY" secondItem="IQC-iM-8nL" secondAttribute="centerY" id="F1v-r8-Xiw"/>
-                                                        <constraint firstAttribute="trailing" secondItem="ApQ-B6-Dd8" secondAttribute="trailing" constant="12" id="oDm-Oj-Eid"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -1320,6 +1270,7 @@
         <image name="ic_plus" width="24" height="24"/>
         <image name="ic_scan" width="32" height="32"/>
         <image name="ic_user_32" width="32" height="32"/>
+        <image name="ic_youtube" width="30" height="30"/>
         <image name="img_arrow_down" width="69" height="292"/>
         <image name="img_arrow_left" width="240" height="42"/>
         <image name="img_choose_img" width="175" height="54"/>

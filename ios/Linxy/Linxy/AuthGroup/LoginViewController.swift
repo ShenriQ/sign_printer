@@ -22,5 +22,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func goRegister(_ sender: Any) {
+          let controller = UIStoryboard(name: "Auth", bundle: nil).instantiateViewController(withIdentifier: "AuthViewController") as! AuthViewController
+              //  let navigation = UINavigationController(rootViewController: controller)
+              self.navigationController?.pushViewController(controller, animated: false)
     }
 }

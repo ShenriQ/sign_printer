@@ -1,18 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "1x.jpg",
-      "idiom" : "iphone",
+      "filename" : "bg_iphone_land.jpg",
+      "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "2x.jpg",
-      "idiom" : "iphone",
+      "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "3x.jpg",
-      "idiom" : "iphone",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],

@@ -38,7 +38,7 @@ extension MyLinxyMarksViewController: UITableViewDelegate, UITableViewDataSource
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 155
+        return 150
     }
 
 }
