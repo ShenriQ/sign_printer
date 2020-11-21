@@ -629,42 +629,17 @@
                                                                     <real key="value" value="20"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <segue destination="dX1-dC-iZV" kind="show" id="5V7-oR-f66"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZY-uD-eTi">
                                                     <rect key="frame" x="45" y="508" width="324" height="90"/>
-                                                    <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-QV-b8V">
-                                                            <rect key="frame" x="234" y="25" width="78" height="40"/>
-                                                            <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="RHO-bD-vmH"/>
-                                                            </constraints>
-                                                            <state key="normal" title="   Next  &gt;    ">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnBorderWidth">
-                                                                    <real key="value" value="1"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
-                                                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <segue destination="dX1-dC-iZV" kind="show" id="OWu-cI-DfV"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="Hcg-a1-qpd"/>
-                                                        <constraint firstAttribute="trailing" secondItem="udZ-QV-b8V" secondAttribute="trailing" constant="12" id="REF-9m-NAQ"/>
-                                                        <constraint firstItem="udZ-QV-b8V" firstAttribute="centerY" secondItem="jZY-uD-eTi" secondAttribute="centerY" id="qyZ-C2-0dj"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -925,42 +900,17 @@
                                                                     <real key="value" value="22"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <segue destination="tZb-yf-hcz" kind="show" id="Gp4-Kd-aAa"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-iM-8nL">
                                                     <rect key="frame" x="45" y="531" width="324" height="90"/>
-                                                    <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApQ-B6-Dd8">
-                                                            <rect key="frame" x="234" y="25" width="78" height="40"/>
-                                                            <color key="backgroundColor" red="0.29803921570000003" green="0.45882352939999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="Ol0-0D-UI4"/>
-                                                            </constraints>
-                                                            <state key="normal" title="   Next  &gt;    ">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnBorderWidth">
-                                                                    <real key="value" value="1"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="btnCornerRadius">
-                                                                    <real key="value" value="20"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
-                                                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <segue destination="tZb-yf-hcz" kind="show" id="OMZ-jW-JDF"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="7b8-dG-hmO"/>
-                                                        <constraint firstItem="ApQ-B6-Dd8" firstAttribute="centerY" secondItem="IQC-iM-8nL" secondAttribute="centerY" id="F1v-r8-Xiw"/>
-                                                        <constraint firstAttribute="trailing" secondItem="ApQ-B6-Dd8" secondAttribute="trailing" constant="12" id="oDm-Oj-Eid"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
